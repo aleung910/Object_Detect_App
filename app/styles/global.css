@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Strait&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Buda:700|Inter:400');
+
+.link:hover,
+.button:hover {
+  transform: translateY(-7px);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Buda';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} 
+
+.square-heading {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 70px;
+  width:640px;
+}
+
+.p-heading{
+  margin-top: 35PX;
+  margin-left: 80px;
+  width:470px;
+}
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+h2 {font-size: 3.158rem; /* 50.56px */}
+h3 {font-size: 2.369rem; /* 37.92px */}
+small {font-size: 0.750rem; /* 12px */}
+
+.monstserrat{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3em; /* Adjust the spacing between letters */
+  text-decoration-style: solid; /* Customize the underline style */
+  text-decoration-thickness: 2px; /* Customize the underline thickness */
+  text-transform: uppercase; /* Make all characters uppercase */
+  text-underline-offset: 0.2em; /* Adjust the position of the underline */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.inter{
+  font-family: 'Inter', sans-serif;
+  font-weight:700;
+}
+.buda{
+  font-family: 'Buda', sans-serif;
+  font-weight: 400;
+}
+
+.btn-small {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem; 
+  border-radius: 0.25rem; 
+  min-width: 8rem; 
+}
