@@ -14,31 +14,8 @@ A Next.js application that uses AI to detect and classify objects in images. Upl
 
 The application follows a containerized architecture deployed on AWS:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                Docker (Image Creation)                   │
-│                                                          │
-│  ┌──────────────────┐                                   │
-│  │   Frontend       │         ┌──────────────────┐      │
-│  │   Next.js        │────────▶│  AWS ECR         │      │
-│  └──────────────────┘         │  Image Storage   │      │
-│                                └──────────────────┘      │
-│  ┌──────────────────────────────────────┐               │
-│  │  Web Server (TSX files)              │               │
-│  │                                       │               │
-│  │  ◊ AI Model: Transformer.js          │               │
-│  │    (DETR ResNet-50)                  │               │
-│  └──────────────────────────────────────┘               │
-│                                                          │
-│         ▼                                                │
-│  ┌──────────────────┐                                   │
-│  │  UploadThing     │                ┌──────────────────┐│
-│  │  Input Uploads   │                │  AWS ECS         ││
-│  └──────────────────┘                │  Container       ││
-│                                      │  Manager         ││
-│                                      └──────────────────┘│
-└─────────────────────────────────────────────────────────┘
-```
+https://claude.ai/api/80a38586-5a82-4ff1-ac3b-74458b4a661b/files/90d6a0b6-dce7-4ed0-accd-5aca5d4b1c36/preview<img width="612" height="542" alt="image" src="https://github.com/user-attachments/assets/87fffc47-4b10-4f55-afdb-4355c18ceee5" />
+
 
 ### Component Flow
 1. **Frontend (Next.js)**: User interface for image upload and result display
