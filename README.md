@@ -1,4 +1,4 @@
-# AI-Powered Image Object Detection App
+# AI-Powered Object-Detection Service
 
 A Next.js application that uses AI to detect and classify objects in images. Upload an image and get instant results showing what objects are detected and how many of each type.
 
